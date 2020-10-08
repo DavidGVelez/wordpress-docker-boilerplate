@@ -20,7 +20,7 @@ services:
     container_name: wordpress-apache
     depends_on:
       - db
-    image: wordpress:5.3-apache
+    image: wordpress:latest
     volumes:
       - .:/var/www/html
     ports:
